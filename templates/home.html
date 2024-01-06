@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/app.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <title>Spam Prediction</title>
+        <meta name="keywords" content="cutom file input, styling, label, cross-browser, accessible, input type file" />
+    </head>
+    <body>
+        <div class="App">
+            <div class="navbar">
+                <div class="title">
+                    <span>Spam Prediction</span>
+                </div>
+            </div>
+            <div class="predictor">
+                <div class="instructions">
+                    <span>
+                        About
+                    </span>
+                    <hr></hr>
+                    <div class="abt">
+                        <p>
+                            We aim to analyze SMS data to predict and mitigate spam messages. By examining patterns in messaging behavior, our goal is to enhance user experience by filtering out unwanted content and ensuring the delivery of relevant SMS across various demographics. 
+                        </p>
+                        <img src="https://madushag.files.wordpress.com/2018/10/fotolia_39633291_xs.jpg?w=640" height="200px" width="200px" >
+                    </div>
+                    <div class="abt">
+                        <img src="https://miro.medium.com/v2/resize:fit:1024/1*pWzWiDuVsox3nmeK_8pqlg.png" height="200px" width="200px" >
+                        <p>
+                            We're analyzing SMS attributes to uncover patterns and enhance fraud awareness. Our goal is to improve messaging security and provide a safer mobile communication experience.</p>
+                    </div>
+                </div>
+                <form action="/result" method="post">
+                    <div class="loadData">
+                        <span>Provide your response</span>
+                        <hr></hr>
+                        <span>Enter the message here...</span>
+                        <input type="text" name = "txt" id="txt"/>
+                        <button type="submit">Post reply</button>
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </body>
+</html>

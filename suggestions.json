@@ -1,0 +1,20 @@
+{
+    "suggestions": [
+        {
+            "label": "1",
+            "response": [
+                "Establish a feedback loop where users can confirm whether a message was incorrectly classified as spam. Use this feedback to refine the spam detection model and reduce false positives.",
+                "Allow users to create personalized whitelists, specifying contacts or keywords that should never be classified as spam. This gives users more control over their messaging preferences.",
+                "Clearly communicate the criteria and policies used for spam filtering to users. Provide information on how messages are evaluated, ensuring transparency in the spam detection process."
+            ]
+        },
+        {
+            "label": "0",
+            "response": [
+                "Implement advanced machine learning algorithms for real-time detection and automated filtering of suspected spam messages. Regularly update the spam detection model to adapt to new patterns and tactics used by spammers.",
+                "Encourage users to report suspicious messages and provide a straightforward mechanism for reporting spam within the messaging app. Leverage user feedback to continuously improve the spam detection system.",
+                "When a suspected spam message is detected, send an informative alert to the user explaining the potential risks of interacting with such messages. Educate users about common spam tactics and advise them on staying vigilant."
+            ]
+        }
+    ]
+}
